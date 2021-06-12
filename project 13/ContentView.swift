@@ -10,25 +10,17 @@ import SwiftUI
 struct ContentView: View {
     @State private var blurAmount: CGFloat = 0 {
         didSet {
-            print("New blur amount is \(blurAmount)")
+            print("The new value is \(blurAmount)")
         }
     }
-    
+       
     
     var body: some View {
-        let blur = Binding<CGFloat>(
-            get: {
-                self.blurAmount
-            },
-            set: {
-                self.blurAmount = $0
-                print("New blur amount is \(blurAmount)")
-            }
-        )
         VStack {
         Text("Hello, world!")
             .blur(radius: blurAmount)
-            Slider(value: blur, in: 0...20)
+            
+            Slider(value: $blurAmount, in: 1...100)
         }
     }
 }
