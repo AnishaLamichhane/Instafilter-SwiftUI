@@ -5,7 +5,7 @@
 //  Created by Anisha Lamichhane on 5/4/21.
 //
 
-import UIKit
+import SwiftUI
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
