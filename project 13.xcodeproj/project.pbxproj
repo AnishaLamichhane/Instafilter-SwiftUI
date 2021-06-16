@@ -68,11 +68,11 @@
 			children = (
 				AF8D0B6F26414B0600276CE3 /* Info.plist */,
 				AFDA890626775DBF00FA733B /* ActionSheet.swift */,
+				AFDA890426775D6D00FA733B /* CustomBinding.swift */,
 				AF8D0B6126414B0400276CE3 /* AppDelegate.swift */,
 				AF8D0B6526414B0400276CE3 /* ContentView.swift */,
 				AFB342822678CB5500AC796B /* coreImage.swift */,
 				AFB342872678E25100AC796B /* WrappingUIViewController.swift */,
-				AFDA890426775D6D00FA733B /* CustomBinding.swift */,
 				AFB342852678D8C100AC796B /* ImagePicker.swift */,
 				AF8D0B6326414B0400276CE3 /* SceneDelegate.swift */,
 				AF8D0B6726414B0600276CE3 /* Assets.xcassets */,
