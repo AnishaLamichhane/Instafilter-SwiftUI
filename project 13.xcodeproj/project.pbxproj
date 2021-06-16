@@ -16,6 +16,7 @@
 		AFB342832678CB5500AC796B /* coreImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB342822678CB5500AC796B /* coreImage.swift */; };
 		AFB342862678D8C100AC796B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB342852678D8C100AC796B /* ImagePicker.swift */; };
 		AFB342882678E25100AC796B /* WrappingUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB342872678E25100AC796B /* WrappingUIViewController.swift */; };
+		AFB3428A267A588800AC796B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB34289267A588800AC796B /* MainView.swift */; };
 		AFDA890526775D6D00FA733B /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA890426775D6D00FA733B /* CustomBinding.swift */; };
 		AFDA890726775DBF00FA733B /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA890626775DBF00FA733B /* ActionSheet.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		AFB342822678CB5500AC796B /* coreImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreImage.swift; sourceTree = "<group>"; };
 		AFB342852678D8C100AC796B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		AFB342872678E25100AC796B /* WrappingUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingUIViewController.swift; sourceTree = "<group>"; };
+		AFB34289267A588800AC796B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AFDA890426775D6D00FA733B /* CustomBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinding.swift; sourceTree = "<group>"; };
 		AFDA890626775DBF00FA733B /* ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,15 +68,12 @@
 		AF8D0B6026414B0400276CE3 /* project 13 */ = {
 			isa = PBXGroup;
 			children = (
-				AF8D0B6F26414B0600276CE3 /* Info.plist */,
-				AFDA890626775DBF00FA733B /* ActionSheet.swift */,
-				AFDA890426775D6D00FA733B /* CustomBinding.swift */,
+				AFB3428C267A59A300AC796B /* Model */,
+				AFB3428B267A58C200AC796B /* View */,
 				AF8D0B6126414B0400276CE3 /* AppDelegate.swift */,
 				AF8D0B6526414B0400276CE3 /* ContentView.swift */,
-				AFB342822678CB5500AC796B /* coreImage.swift */,
-				AFB342872678E25100AC796B /* WrappingUIViewController.swift */,
-				AFB342852678D8C100AC796B /* ImagePicker.swift */,
 				AF8D0B6326414B0400276CE3 /* SceneDelegate.swift */,
+				AF8D0B6F26414B0600276CE3 /* Info.plist */,
 				AF8D0B6726414B0600276CE3 /* Assets.xcassets */,
 				AF8D0B6C26414B0600276CE3 /* LaunchScreen.storyboard */,
 				AF8D0B6926414B0600276CE3 /* Preview Content */,
@@ -88,6 +87,26 @@
 				AF8D0B6A26414B0600276CE3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFB3428B267A58C200AC796B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFB342872678E25100AC796B /* WrappingUIViewController.swift */,
+				AFB342822678CB5500AC796B /* coreImage.swift */,
+				AFDA890626775DBF00FA733B /* ActionSheet.swift */,
+				AFDA890426775D6D00FA733B /* CustomBinding.swift */,
+				AFB34289267A588800AC796B /* MainView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AFB3428C267A59A300AC796B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFB342852678D8C100AC796B /* ImagePicker.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB342832678CB5500AC796B /* coreImage.swift in Sources */,
+				AFB3428A267A588800AC796B /* MainView.swift in Sources */,
 				AFDA890526775D6D00FA733B /* CustomBinding.swift in Sources */,
 				AF8D0B6226414B0400276CE3 /* AppDelegate.swift in Sources */,
 				AFB342862678D8C100AC796B /* ImagePicker.swift in Sources */,
